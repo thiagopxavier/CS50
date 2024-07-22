@@ -16,7 +16,7 @@ int get_positive_int(void)
   do
   {
     n = get_int("Height: ");
-  } while (n < 1);
+  } while (n < 1 || n > 8);
   return n;
 }
 
